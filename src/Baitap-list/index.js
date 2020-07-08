@@ -35,7 +35,7 @@ export default class BaitapList extends Component {
   render() {
     return (
       <div>
-        <h3 className="title">* Bài tập LIST</h3>
+        <h3 className="title text-center mb-5">* Bài tập LIST</h3>
         <div className="container">
           <div className="row">{this.renderHTML()}</div>
         </div>
