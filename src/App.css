@@ -50,8 +50,7 @@
   height: 300px;
   width: 100%;
 }
-.card-text,
-.card-title {
+.card-text {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 25px;
@@ -59,8 +58,4 @@
   height: 75px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-}
-.card-title {
-  -webkit-line-clamp: 1;
-  height: 25px;
 }
